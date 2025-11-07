@@ -43,7 +43,6 @@
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
-            layers = <0>;
         };
 
         Backspace {
