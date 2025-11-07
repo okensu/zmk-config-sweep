@@ -45,6 +45,11 @@
             key-positions = <16 17 18>;
             layers = <0>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
