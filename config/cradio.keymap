@@ -49,6 +49,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
         };
+
+        combo_delete {
+            bindings = <&kp DEL>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
