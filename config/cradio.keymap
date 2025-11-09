@@ -40,12 +40,12 @@
     combos {
         compatible = "zmk,combos";
 
-        Enter {
+        combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
         };
 
-        Backspace {
+        combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
         };
