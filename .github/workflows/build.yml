@@ -1,5 +1,14 @@
 name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: &build_trigger_paths
+      - config/cradio.conf
+      - config/cradio.keymap
+      - config/west.yml
+      - build.yaml
+  push:
+    paths: *build_trigger_paths
 
 jobs:
   build:
