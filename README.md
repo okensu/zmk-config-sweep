@@ -1,3 +1,7 @@
 # zmk-config-sweep
 
-![keymap](keymap-drawer/cradio.svg)
+## Keymap
+
+<p align="center">
+  <img src="keymap-drawer/cradio.svg" alt="keymap">
+</p>
